@@ -1,0 +1,28 @@
+
+  "name": "ws-error",
+  "version": "1.0.0",
+  "description": "Create nicely formatted errors for websocket clients",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cactusdev/ws-error.git"
+  },
+  "author": "CactusDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cactusdev/ws-error/issues"
+  },
+  "homepage": "https://github.com/cactusdev/ws-error#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+  }
+}
