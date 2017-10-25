@@ -34,5 +34,7 @@ const otherError = WSError.badLogin("learn2login");
 ## Error Types
 
 Invalid Login `badLogin` (Bad login information from the client)
+
 Invalid Data  `invalidData` (Bad data sent by the client)
+
 Closing       `closing` (Indicates the server is closing)
